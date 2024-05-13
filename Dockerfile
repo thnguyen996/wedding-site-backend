@@ -1,4 +1,4 @@
-FROM php:7.2-cli
+FROM composer
 COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 CMD [ "php", "./index.php" ]
