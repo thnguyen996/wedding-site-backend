@@ -297,10 +297,10 @@ class Compiler
         } else if (!is_dir(base_path($this->originCachePath))) {
             @mkdir(base_path($this->originCachePath), 0777, true);
         }
-
+        /**
         if (!(bool) @file_put_contents($file . '.php', $content)) {
             throw new Exception(sprintf('Can\'t save file [%s.php]', $this->cachePath));
-        }
+        }*/
     }
 
     /**
