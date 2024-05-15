@@ -1,2 +1,2 @@
-<?php var_dump(shell_exec("php saya migrasi --gen"));
+<?php var_dump(shell_exec("cd ../ && php saya migrasi --gen"));
 

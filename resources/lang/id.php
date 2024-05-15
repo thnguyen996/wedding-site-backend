@@ -6,7 +6,7 @@ return [
      */
     \Core\Auth\AuthManager::NAME => [
 
-        'failed' => ':email atau :password salah.',
+        'failed' => 'Wrong email or password',
     ],
 
     /**
@@ -14,15 +14,15 @@ return [
      */
     \Core\Support\Time::NAME => [
 
-        'y' => 'tahun',
-        'm' => 'bulan',
-        'd' => 'hari',
-        'h' => 'jam',
-        'i' => 'menit',
-        's' => 'detik',
+        'y' => 'year',
+        'm' => 'months',
+        'd' => 'days',
+        'h' => 'hours',
+        'i' => 'minutes',
+        's' => 'seconds',
 
-        'ago' => 'yang lalu.',
-        'recently' => 'baru saja.',
+        'ago' => 'ago',
+        'recently' => 'recently',
     ],
 
     /**
@@ -31,17 +31,17 @@ return [
     \Core\Valid\Validator::NAME => [
 
         'request' => [
-            'required' => ':field dibutuhkan!.',
-            'email' => ':field tidak valid!.',
-            'dns' => ':field tidak valid!.',
-            'url' => ':field tidak valid!.',
-            'uuid' => ':field bukan uuid!.',
-            'int' => ':field harus angka!.',
-            'float' => ':field harus desimal!.',
-            'min' => ':field panjang minimal: :attribute',
-            'max' => ':field panjang maxsimal: :attribute',
-            'sama' => ':field tidak sama dengan :attribute',
-            'unik' => ':field sudah ada!.',
+            'required' =>'required' ,
+            'email' =>'email' ,
+            'dns' =>'dns' ,
+            'url' =>'url' ,
+            'uuid' =>'uuid' ,
+            'int' =>'int' ,
+            'float' =>'float' ,
+            'min' =>'min' ,
+            'max' =>'max' ,
+            'sama' =>'sama' ,
+            'unik' =>'unik' ,
         ],
 
         'file' => [
