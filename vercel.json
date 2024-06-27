@@ -4,7 +4,8 @@
             "runtime": "vercel-php@0.7.0",
             "memory": 1024,
             "maxDuration": 10
-        }
+        },
+        "regions": ["icn1"]
     },
     "routes": [
         {
